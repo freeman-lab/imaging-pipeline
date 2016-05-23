@@ -34,13 +34,15 @@ Options
 - `-o` output location
 - `-a` algorithm
 
-#### `movie -i /input -o /output -dt 1 -ds 5`
+#### `visualization -i /input -o /output -ft detrend -fs median -dt 1 -ds 5`
 
-Generate a movie with filtering and downsampling.
+Generate a movie to visualize raw data with optional filtering and downsampling.
 
 Options
 - `-i` input data
 - `-o` output location
+- `-ft` temporal filtering
+- `-fs` spatial filtering
 - `-dt` temporal downsampling
 - `-ds` spatial downsampling
 
