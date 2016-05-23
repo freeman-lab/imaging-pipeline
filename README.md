@@ -22,7 +22,16 @@ Perform image registration.
 
 Options
 - `-i` input data
-- `-o` output data
+- `-o` output location
+- `-a` algorithm
+
+#### `extraction -i /input -o /output -a nmf`
+
+Perform source extraction.
+
+Options
+- `-i` input data
+- `-o` output location
 - `-a` algorithm
 
 #### `movie -i /input -o /output -dt 1 -ds 5`
@@ -31,7 +40,7 @@ Generate a movie with filtering and downsampling.
 
 Options
 - `-i` input data
-- `-o` output data
+- `-o` output location
 - `-dt` temporal downsampling
 - `-ds` spatial downsampling
 
@@ -41,7 +50,7 @@ Perform pixel-wise linear regression.
 
 Options
 - `-i` input data
-- `-o` output data
+- `-o` output location
 - `-x` covariates
 
 
