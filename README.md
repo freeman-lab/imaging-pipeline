@@ -4,7 +4,7 @@
 
 This is a small package for performing common steps in processing calcium imaging data. There's actually very little code here, because all the analyses are implemented in separate packages. This just wraps them with common arguments into something that can be run from the command line. 
 
-So if this doesn't match your needs, you can build your own version from the same components!
+If this doesn't match your needs, you can build your own version from the same components!
 
 ## install
 
