@@ -15,6 +15,7 @@ setup(
     url='https://github.com/freeman-lab/imaging-pipeline',
     packages=['pipeline'],
     install_requires=required,
+    entry_points = {"console_scripts": ['imaging-pipeline = pipeline.cli:cli']},
     long_description='See ' + 'https://github.com/freeman-lab/imaging-pipeline',
     license='MIT'
 )
