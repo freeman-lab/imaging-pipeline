@@ -4,9 +4,17 @@
 
 This is a small tool for performing common steps in processing calcium imaging data. There's actually very little code here, because all the analyses are implemented in separate packages. So if this doesn't exactly match your needs, you might want to build your own version.
 
-# commands
+## install
 
-#### `imaging-pipeline registration -i /input -o /output -a crosscorr`
+For now, just clone this repository and run by calling
+
+```
+bin/imaging-pipeline
+```
+
+## commands
+
+#### `registration -i /input -o /output -a crosscorr`
 
 Perform image registration.
 
@@ -15,7 +23,7 @@ Options
 - `-o` output data
 - `-a` algorithm
 
-#### `imaging-pipeline movie -i /input -o /output -dt 1 -ds 5`
+#### `movie -i /input -o /output -dt 1 -ds 5`
 
 Generate a movie with filtering and downsampling.
 
@@ -25,7 +33,7 @@ Options
 - `-dt` temporal downsampling
 - `-ds` spatial downsampling
 
-#### `imaging-pipeline regression -i /input -o /output -x covariates.json`
+#### `regression -i /input -o /output -x covariates.json`
 
 Perform pixel-wise linear regression.
 
