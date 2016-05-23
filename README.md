@@ -2,7 +2,7 @@
 
 > a pipeline for calcium imaging data built out of modular components
 
-This is a small tool for performing common steps in processing calcium imaging data. There's actually very little code here, because all the analyses are implemented in separate packages. So if this doesn't exactly match your needs, you might want to build your own version.
+This is a small package for performing common steps in processing calcium imaging data. There's actually very little code here, because all the analyses are implemented in separate packages. This just wraps them with common arguments into something that can be run from the command line. So if this doesn't exactly match your needs, you might want to build your own version.
 
 ## install
 
