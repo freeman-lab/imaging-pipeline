@@ -12,6 +12,8 @@ For now, just clone this repository and run by calling
 bin/imaging-pipeline
 ```
 
+Once it's more fleshed out it will be installable using `pip`.
+
 ## commands
 
 #### `registration -i /input -o /output -a crosscorr`
