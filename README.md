@@ -58,3 +58,10 @@ Options
 - `-x` covariates
 
 
+#### `summarization -i /input -o /output`
+
+Summarize a data set using summary statistics (mean, variance, max, local correlation).
+
+Options
+- `-i` input data
+- `-o` output location 
